@@ -15,6 +15,6 @@ public class Calculator {
     }
 
     public int multiply(int firstNum, int secondNum) {
-        return firstNum;
+        return firstNum * secondNum;
     }
 }
