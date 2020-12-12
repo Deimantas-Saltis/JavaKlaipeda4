@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Tractor {
 
-    private String tractorMaker;
+    private String tractorMaker; // `john-deer`, `fend`, `belarus`
     private String model;
     private int tankSize;
     private LocalDate make;
@@ -32,16 +32,5 @@ public class Tractor {
 
     public double getPrice() {
         return price;
-    }
-
-    @Override
-    public String toString() {
-        return "Tractor{" +
-                "tractorMaker=" + tractorMaker +
-                ", model='" + model + '\'' +
-                ", tankSize=" + tankSize +
-                ", make=" + make +
-                ", price=" + price +
-                '}';
     }
 }

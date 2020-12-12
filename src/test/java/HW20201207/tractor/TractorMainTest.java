@@ -49,27 +49,27 @@ public class TractorMainTest {
     }
 
     @Test
-    public void getTractorsWhichTankSizeIsMoreThan250() {
+    public void getTractorsWhichTankSizeIsMoreThan300() {
         // given
-        int expectedTankSize = 250;
+        int expectedTankSize = 300;
 
         // when
         int result = TractorMain.getNumberOfTractorsWhichTankSizeIsMoreThan(tractors, expectedTankSize);
 
         // then
-        assertThat(result).isEqualTo(4);
+        assertThat(result).isEqualTo(2);
     }
 
     @Test
     public void getTractorsWhichModelStartsWithJ() {
         // given
-        String expectedText = "J";
+        String expectedText = "M";
 
         // when
         Tractor result = TractorMain.getTractorWhichModelStartsWith(tractors, expectedText);
 
         // then
-        assertThat(result.getModel()).isEqualTo("JD-8825");
+        assertThat(result.getModel()).isEqualTo("MMR-445");
     }
 
     @Test

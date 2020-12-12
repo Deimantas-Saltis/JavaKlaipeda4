@@ -5,8 +5,7 @@ public class House {
     private double houseArea;
     private String district;
     private int builtYear;
-    private String condition;
-//    fitted`, `partially finished`, `not finished`
+    private String condition; //    fitted`, `partially finished`, `not finished`
 
     public House(double houseArea, String district, int builtYear, String condition) {
         this.houseArea = houseArea;

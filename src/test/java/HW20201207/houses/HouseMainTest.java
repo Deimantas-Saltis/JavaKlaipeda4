@@ -20,6 +20,7 @@ public class HouseMainTest {
 
     @BeforeAll
     static void setUp(){
+        // given
         houses = buildHouses();
     }
 
@@ -32,7 +33,6 @@ public class HouseMainTest {
         Assertions.assertThat(result.getBuiltYear()).isEqualTo(2020);
     }
 
-    // Patiems
     @Test
     public void shouldReturnNumberOfFittedHouses() {
         // when

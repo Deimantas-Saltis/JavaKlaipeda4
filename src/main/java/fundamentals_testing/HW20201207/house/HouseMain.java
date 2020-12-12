@@ -3,17 +3,8 @@ package fundamentals_testing.HW20201207.house;
 public class HouseMain {
 
     public static void main(String[] args) {
-       House[] houses = buildHouses();
-        System.out.println(getNewestHouse(houses));
-    }
-
-    public static House[] buildHouses() {
-        return new House[]{
-                new House(200.2, "Antakalnis", 2012, "fitted"),
-                new House(400.1, "Seskine", 2008, "fitted"),
-                new House(320.9, "Zverynas", 2019, "not finished"),
-                new House(840.5, "Senamiestis", 2020, "partially finished")
-        };
+        House[] houses = new House[3];
+        houses[0] = new House(20.2, "", 5, "");
     }
 
     public static House getNewestHouse(House[] houses) {

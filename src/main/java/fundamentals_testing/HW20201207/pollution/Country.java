@@ -4,7 +4,7 @@ public class Country {
 
     private String name;
     private int co2Emission;
-    private String pollutionFactor;
+    private String pollutionFactor; // animal husbandry`, `transportation`, `factories`
 
     public Country(String name, int co2Emission, String pollutionFactor) {
         this.name = name;
