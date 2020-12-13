@@ -1,4 +1,4 @@
-package fundamentals_testing.HW20201207.house;
+package home_works.HW20201207.house;
 
 public class HouseMain {
 

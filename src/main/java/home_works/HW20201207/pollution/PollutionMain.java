@@ -1,4 +1,4 @@
-package fundamentals_testing.HW20201207.pollution;
+package home_works.HW20201207.pollution;
 
 public class PollutionMain {
 

@@ -1,7 +1,7 @@
 package HW20201207.pollution;
 
-import fundamentals_testing.HW20201207.pollution.Country;
-import fundamentals_testing.HW20201207.pollution.PollutionMain;
+import home_works.HW20201207.pollution.Country;
+import home_works.HW20201207.pollution.PollutionMain;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

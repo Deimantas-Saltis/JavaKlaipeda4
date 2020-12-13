@@ -1,7 +1,7 @@
 package HW20201207.tractor;
 
-import fundamentals_testing.HW20201207.tractor.Tractor;
-import fundamentals_testing.HW20201207.tractor.TractorMain;
+import home_works.HW20201207.tractor.Tractor;
+import home_works.HW20201207.tractor.TractorMain;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

@@ -1,7 +1,7 @@
 package HW20201207.houses;
 
-import fundamentals_testing.HW20201207.house.House;
-import fundamentals_testing.HW20201207.house.HouseMain;
+import home_works.HW20201207.house.House;
+import home_works.HW20201207.house.HouseMain;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
