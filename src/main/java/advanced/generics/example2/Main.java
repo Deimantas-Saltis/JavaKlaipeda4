@@ -10,5 +10,7 @@ public class Main {
 
         Garage<Motorcycle> motorcycleGarage = new Garage<>(motorcycle);
         motorcycleGarage.repairVehicle();
+
+//        Garage<Boat> boatGarage = new Garage<>(new Boat());
     }
 }
