@@ -12,6 +12,7 @@ public class Bicycle {
         return maxSpeed;
     }
 
+    // Nested class
     public static class Mechanic {
         public void upgrade(Bicycle bicycle) {
             bicycle.maxSpeed += 3;

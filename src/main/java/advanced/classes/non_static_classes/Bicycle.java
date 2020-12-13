@@ -12,6 +12,10 @@ public class Bicycle {
         return maxSpeed;
     }
 
-
-
+    // Inner class
+    public class Wheel {
+        public void damage() {
+            maxSpeed *= 0.5;
+        }
+    }
 }
