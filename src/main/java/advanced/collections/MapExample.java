@@ -14,6 +14,7 @@ public class MapExample {
 
         countries.put("Poland", "Warsaw");
         countries.put("Germany", "Berlin");
+        String  value = countries.get("Poland");
 
         List<String> countryList = new ArrayList<>(countries.values());
         for (String mapValue : countryList) {
