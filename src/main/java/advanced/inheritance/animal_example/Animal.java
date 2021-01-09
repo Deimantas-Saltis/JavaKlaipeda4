@@ -2,7 +2,7 @@ package advanced.inheritance.animal_example;
 
 public abstract class Animal {
 
-    protected boolean mammal;
+    private boolean mammal;
     protected String voice;
 
     public Animal(boolean mammal, String voice) {
@@ -12,5 +12,9 @@ public abstract class Animal {
 
     public String yieldVoice() {
         return ("My voice: " + voice);
+    }
+
+    public boolean getIsMammal() {
+        return mammal;
     }
 }

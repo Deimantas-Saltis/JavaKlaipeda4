@@ -8,4 +8,8 @@ public class Dog extends Animal {
         super(mammal, voice);
         this.breed = breed;
     }
+
+    public void print() {
+        System.out.println(voice);
+    }
 }
