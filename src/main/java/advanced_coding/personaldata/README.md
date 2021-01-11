@@ -4,8 +4,28 @@
 
 **Requirements**
 
-* Create a file containing any personal data (name, surname, phone number). Data of
-individual staff should be in the json file format.
+* Create 2 classes `Staff` and `PersonalData`;
+* `PersonalData` class have to contain these attributes: (name, surname, phone number); 
+* `Staff` class have to contain these attributes: (listOfPersonalData);
+* Data should be in the json file format.
 * Read data from a file and create objects of people based on them.
-* Enter the created objects into ArrayList or Map (<line number>: <Person>).
+* Enter the created objects into ArrayList.
 * Present the obtained data.
+
+#BEFORE
+Possible text file data format
+```
+{
+  "xxx": [
+    {
+      yyy: zzz
+    },
+    {
+      yyy: zzz
+    },
+    {
+      yyy: zzz
+    }
+  ]
+}
+```

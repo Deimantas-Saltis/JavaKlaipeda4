@@ -12,5 +12,5 @@
 #BEFORE
 Possible text file data format
 ```
-Mike pukuotukas;Autoriaus vardas1,email1,8885857738;20000;32
+Mike pukuotukas;Autoriaus vardas1,email1,8885857738-Autoriaus vardas1,email1,8885857738;20000;32
 ```
